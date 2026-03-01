@@ -4,7 +4,7 @@ from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-DATA_PATH = "D:\My Git Hub\credit-card-bot\cc_bot\cc_bot_api\data\hdfc"
+DATA_PATH = ".\..\data\hdfc"
 
 def _read_data():
     return Path(DATA_PATH).read_text()
